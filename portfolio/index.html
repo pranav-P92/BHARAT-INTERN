@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0514075922.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <nav id="desktop-nav"> 
+        <div class="logo"><h1>PRANAV</h1></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#skills'>Skills</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#resume'>Resume</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+    </div>
+</nav>
+<div class="header-text">
+    <h1>Hello, I'm <span>Pranav</span><br></h1>
+    
+    <p>A Computer Science graduate with strong motivation, fueled by a passion for innovation. Enthusiastic about applying technical skills and creative
+        problem-solving expertise in dynamic roles within software development. Committed to continuous learning and
+        fostering collaborative teamwork to exceed organizational goals and promote excellence.</p>
+        
+    <div id="resume">
+    <a href="resume.pdf"  download class="btn btn2">Download Resume</a>
+</div>
+</div>
+<!------------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="prof4.jpg" alt="profile.jpg">
+                </div>
+                <div class="about-col2">
+                   <h1 class="sub-title">About me</h1>
+                   <p>A Computer Science and Engineering graduate passionate about coding and problem-solving.  
+                    My fascination with coding sparked during my academic journey, 
+                    where I not only absorbed the theoretical foundations of computer science but also cultivated a hands-on approach to problem-solving.</p>
+                   
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C</span><br><br>PYTHON</li>
+                        <li><span>JAVA</span><br><br>HTML</li>
+                        <li><span>CSS</span><br><br>MySQL</li>
+                        <li><span>JAVASCRIPT</span><br></li>
+                </div>
+                <div class="tab-contents " id="education">
+                    <ul>
+                        <li><span>2025</span><br>GITAM, B.Tech, HYDERABAD</li>
+                        <li><span>2021</span><br>Sri Gayatri Junior College, Intermediate,VISAKHAPTNAM</li>
+                        <li><span>2019</span><br>Chaitanya Public School, VISAKHAPTNAM</li> 
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------projects----------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">PROJECTS</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="contact.jpeg" >
+                        <div class="layer">
+                            <h3>ADDRESS BOOK</h3>
+                            <p>This application designed for saving and managing address information.
+                                 The application allowing individuals to input their address details, phone number,
+                                and retrieve stored addresses as needed. Used Python and Tkinter for GUI</p>
+                            <a href="https://github.com/pranav-P92/address-book" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           
+                        </div>
+                </div>
+                <div class="project">
+                    <img src="ubuntu.png" >
+                        <div class="layer">
+                            <h3>UBUNTU HARDENING</h3>
+                            <p>Created during the 24 hour Smart India Hackathon 2023. This Python application is a user friendly GUI that allows people with minimal IT Knowledge to harden Ubuntu Systems as per Organisation Policies.
+                                 </p>
+                            <a href="https://github.com/SIH-GRIND/internal-prototype" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="project">
+                    <img src="atm.jpeg" >
+                        <div class="layer">
+                            <h3>ATM</h3>
+                            <p>Designed and implemented an ATM system project using Object-Oriented Language principles, showcasing proficiency in JAVA.
+                                 Developed a user-friendly interface for banking transactions, demonstrating strong software development skills.</p>
+                            <a href="https://github.com/pranav-P92/ATM-project" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+             </div> 
+        </div>
+</div>
+<!-- -----------------------contact ---------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title1">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> pranavpatnala@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7013776959</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pranav-patnala-880086265/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/pranav-P92" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button typ="submit" class="btn btn2">Submit</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 <span>Pranav</span> All rights reserved. </p>
+    </div>
+</div>
+
+
+
+<script>
+    
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+</body>
+</html>
